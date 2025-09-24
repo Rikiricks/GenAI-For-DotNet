@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using OpenAI;
 using System.ClientModel;
-using TextCompletion.Models;
 
 IConfigurationRoot config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
 
