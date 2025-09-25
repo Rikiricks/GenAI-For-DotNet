@@ -17,16 +17,17 @@ IChatClient openAIClient = new OpenAIClient(credential, options).GetChatClient("
 
 IChatClient client = new ChatClientBuilder(openAIClient).UseFunctionInvocation().Build();
 
+Func<string,string, string> getWeather = (string location, string unit) =>
+{
+    // Here you would call a weather API to get the weather for the location
+    var temperature = Random.Shared.Next(5, 20);
+    var conditions = Random.Shared.Next(0, 1) == 0 ? "sunny" : "rainy";
+    return $"The weather is {temperature} degrees C and {conditions}.";
+};
+
 var chatOptions = new ChatOptions
 {
-    Tools = [AIFunctionFactory.Create((string location, string unit)=>
-    {
-        // Here you would call a weather API to get the weather for the location
-        var temperature = Random.Shared.Next(5, 20);
-        var conditions = Random.Shared.Next(0, 1) == 0 ? "sunny" : "rainy";
-
-        return $"The weather is {temperature} degrees C and {conditions}.";
-    }, "get_current_weather", "Get the current weather in a given location")]
+    Tools = [AIFunctionFactory.Create(getWeather, "get_current_weather", "Get the current weather in a given location")]
 };
 
 List<ChatMessage> chatHistory = [new(ChatRole.System, """
