@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearch", "VectorSearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorSearch.Ollma", "VectorSearch.Ollma\VectorSearch.Ollma.csproj", "{F87281B0-AA09-495E-B2F2-8AA57E4D0A92}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "section7_rag", "section7_rag", "{755544A7-FFAC-450A-814D-C439A442D8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp_RAG", "ChatApp_RAG\ChatApp_RAG.csproj", "{9E5321F7-B84F-D51F-273D-2D47A58E1332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{F87281B0-AA09-495E-B2F2-8AA57E4D0A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F87281B0-AA09-495E-B2F2-8AA57E4D0A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F87281B0-AA09-495E-B2F2-8AA57E4D0A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5321F7-B84F-D51F-273D-2D47A58E1332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5321F7-B84F-D51F-273D-2D47A58E1332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5321F7-B84F-D51F-273D-2D47A58E1332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5321F7-B84F-D51F-273D-2D47A58E1332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{F624B71E-19D5-4607-AD98-C95AD453D3D2} = {ED74527A-5989-49B5-9838-279E5E2166BF}
 		{08C64E91-B620-4D5E-8746-BE398D5C5626} = {ED74527A-5989-49B5-9838-279E5E2166BF}
 		{F87281B0-AA09-495E-B2F2-8AA57E4D0A92} = {ED74527A-5989-49B5-9838-279E5E2166BF}
+		{9E5321F7-B84F-D51F-273D-2D47A58E1332} = {755544A7-FFAC-450A-814D-C439A442D8E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B918BC20-514F-4F5A-871C-77D4173C0D97}
