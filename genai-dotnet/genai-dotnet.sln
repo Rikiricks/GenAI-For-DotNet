@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp_RAG_Qdrant.ServiceD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp_RAG_Qdrant.Web", "ChatApp_RAG_Qdrant\ChatApp_RAG_Qdrant.Web\ChatApp_RAG_Qdrant.Web.csproj", "{559FF3C9-E2D9-EE11-BF45-2BB3424AAC89}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "section8_image", "section8_image", "{E3C99ABA-0A87-461E-976B-74727D127112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageAnalysis", "ImageAnalysis\ImageAnalysis.csproj", "{1514D7AF-5D9B-4F6F-A233-C986116667C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{559FF3C9-E2D9-EE11-BF45-2BB3424AAC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559FF3C9-E2D9-EE11-BF45-2BB3424AAC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559FF3C9-E2D9-EE11-BF45-2BB3424AAC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1514D7AF-5D9B-4F6F-A233-C986116667C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1514D7AF-5D9B-4F6F-A233-C986116667C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1514D7AF-5D9B-4F6F-A233-C986116667C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1514D7AF-5D9B-4F6F-A233-C986116667C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +105,7 @@ Global
 		{C2924776-6433-13DF-E023-571026B37690} = {755544A7-FFAC-450A-814D-C439A442D8E3}
 		{9FD10EAE-BB88-2B3A-716F-802BC6B5C983} = {755544A7-FFAC-450A-814D-C439A442D8E3}
 		{559FF3C9-E2D9-EE11-BF45-2BB3424AAC89} = {755544A7-FFAC-450A-814D-C439A442D8E3}
+		{1514D7AF-5D9B-4F6F-A233-C986116667C6} = {E3C99ABA-0A87-461E-976B-74727D127112}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B918BC20-514F-4F5A-871C-77D4173C0D97}
