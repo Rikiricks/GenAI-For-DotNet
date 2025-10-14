@@ -4,6 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>63aba15a-9ace-4a29-801f-5a8b1c82704b</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.AI" Version="9.9.1" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.9.1-preview.1.25474.6" />
   </ItemGroup>
 
 </Project>
